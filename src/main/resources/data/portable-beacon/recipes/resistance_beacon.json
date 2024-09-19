@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DPD",
+    "NBN",
+    "DND"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "P": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "portable-beacon:resistance_beacon",
+    "count": 1
+  }
+}

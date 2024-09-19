@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "portable-beacon",
+	"version": "${version}",
+	"name": "Portable Beacon",
+	"description": "Adds a portable beacon that grants effects when in inventory.",
+	"authors": [
+		"Grimfeld"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/portable-beacon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tech.grimfeld.PortableBeaconsMod"
+		],
+		"client": [
+			"tech.grimfeld.PortableBeaconClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

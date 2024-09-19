@@ -1,0 +1,38 @@
+# Gradle build folder
+/build/
+/.gradle/
+
+# IntelliJ IDEA project files
+/.idea/
+/*.iml
+
+# Eclipse project files
+/.classpath
+/.project
+/.settings/
+
+# VS Code project files
+/.vscode/
+
+# Logs
+/logs/
+/crash-reports/
+
+# Minecraft mod runtime files
+/run/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled Java files
+*.class
+
+# Other
+out/
